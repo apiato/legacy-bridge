@@ -20,6 +20,8 @@ composer require apiato/legacy-bridge dev-latest
 ```
 
 ## Usage
+> We suggest you copy the traits and classes you need to your codebase instead of using them directly from the package.
+
 Backward compatibility features are grouped based on the Apiato version they support.
 
 You can find each versions documentation in the following directories:
@@ -27,5 +29,3 @@ You can find each versions documentation in the following directories:
 | From | To  | Documentation            |
 |------|-----|--------------------------|
 | v12  | v13 | [v12](src/v12/readme.md) |
-
-> We suggest you copy the traits and classes you need to your codebase instead of using them directly from the package.
