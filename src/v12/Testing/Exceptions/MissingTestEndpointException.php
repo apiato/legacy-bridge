@@ -1,6 +1,6 @@
 <?php
 
-namespace Apiato\LegacyBridge\v13\Testing\Exceptions;
+namespace Apiato\LegacyBridge\v12\Testing\Exceptions;
 
 use Apiato\Core\Exceptions\HttpException;
 use Symfony\Component\HttpFoundation\Response;

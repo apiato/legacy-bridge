@@ -1,6 +1,6 @@
 <?php
 
-namespace Apiato\LegacyBridge\v13\Testing;
+namespace Apiato\LegacyBridge\v12\Testing;
 
 use Apiato\Core\Models\Model;
 use Illuminate\Auth\Access\Gate;

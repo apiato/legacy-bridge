@@ -1,6 +1,6 @@
 <?php
 
-namespace Apiato\LegacyBridge\v13\Testing;
+namespace Apiato\LegacyBridge\v12\Testing;
 
 use Laravel\Passport\ClientRepository;
 use Laravel\Passport\PersonalAccessClient;

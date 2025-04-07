@@ -5,7 +5,7 @@ To access removed testing methods, use the `TestCaseTrait` in your parent TestCa
 namespace App\Ship\Parents\Tests;
 
 use Apiato\Core\Testing\TestCase as AbstractTestCase;
-use Apiato\LegacyBridge\v13\Testing\TestCaseTrait;
+use Apiato\LegacyBridge\v12\Testing\TestCaseTrait;
 use Illuminate\Foundation\Testing\LazilyRefreshDatabase;
 
 abstract class TestCase extends AbstractTestCase
@@ -24,7 +24,7 @@ To access removed Request methods, use the `RequestTrait` in your parent Request
 namespace App\Ship\Parents\Requests;
 
 use Apiato\Core\Requests\Request as AbstractRequest;
-use Apiato\LegacyBridge\v13\RequestTrait;
+use Apiato\LegacyBridge\v12\RequestTrait;
 
 abstract class Request extends AbstractRequest
 {
@@ -39,7 +39,7 @@ To maintain the previous behavior of the `find`, `create`, and `update` methods,
 namespace App\Ship\Parents\Repositories;
 
 use Apiato\Core\Repositories\Repository as AbstractRepository;
-use Apiato\LegacyBridge\v13\RepositoryTrait;
+use Apiato\LegacyBridge\v12\RepositoryTrait;
 
 abstract class Repository extends AbstractRepository
 {

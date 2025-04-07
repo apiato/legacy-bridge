@@ -1,6 +1,6 @@
 <?php
 
-namespace Apiato\LegacyBridge\v13;
+namespace Apiato\LegacyBridge\v12;
 
 use Apiato\Core\Repositories\Exceptions\ResourceNotFound;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
