@@ -16,7 +16,5 @@
 
 [//]: # (</p>)
 
----
-
 # Apiato Legacy Bridge
 A set of utilities to help you gradually upgrade your Apiato codebase.
