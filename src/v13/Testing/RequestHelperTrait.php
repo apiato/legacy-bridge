@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Ship\LegacyBridge\Testing;
+namespace Apiato\LegacyBridge\v13\Testing;
 
-use App\Ship\LegacyBridge\Testing\Exceptions\MissingTestEndpointException;
-use App\Ship\LegacyBridge\Testing\Exceptions\UndefinedMethodException;
-use App\Ship\LegacyBridge\Testing\Exceptions\WrongEndpointFormatException;
+use Apiato\LegacyBridge\v13\Testing\Exceptions\MissingTestEndpointException;
+use Apiato\LegacyBridge\v13\Testing\Exceptions\UndefinedMethodException;
+use Apiato\LegacyBridge\v13\Testing\Exceptions\WrongEndpointFormatException;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Illuminate\Testing\TestResponse;

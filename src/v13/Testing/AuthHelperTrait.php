@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Ship\LegacyBridge\Testing;
+namespace Apiato\LegacyBridge\v13\Testing;
 
 use Apiato\Core\Models\UserModel;
 use Illuminate\Support\Facades\Hash;

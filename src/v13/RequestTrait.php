@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Ship\LegacyBridge;
+namespace Apiato\LegacyBridge\v13;
 
 use App\Containers\AppSection\User\Models\User;
 use Illuminate\Support\Arr;
